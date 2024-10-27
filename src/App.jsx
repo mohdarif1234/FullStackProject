@@ -1,10 +1,11 @@
+import { Routes } from 'react-router-dom'
 import './App.css'
 
 function App() {
 
   return (
    <>
-   HEllo
+   <Routes path="" element={}></Routes>
    </>
   )
 }

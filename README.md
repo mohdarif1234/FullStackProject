@@ -22,3 +22,32 @@ react-hot-toast
 @tailwindcss/line-clamp
 
 `````
+### Configure auto import sort eslint
+1. install simple import sort
+```
+npm i eslint-plugin-simple-import-sort
+
+```
+
+2. Add rule in `.eslint.cjs`
+
+```
+  'simple-import-sort/imports': 'error'
+
+```
+
+3. add simple-import sort plugin in `.eslint.cjs`
+```
+    plugins: [..., 'simple-import-sort']
+
+```
+
+4. TO enable auto import sort on file save in vscode
+```
+   - Open 'setting.json'
+   - add the folling config
+
+   "editor.codeActionOnSave": {
+    "source.fixAll.eslint": true
+   }
+```

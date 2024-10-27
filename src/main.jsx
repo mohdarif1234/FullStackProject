@@ -1,9 +1,14 @@
-import { createRoot } from 'react-dom/client'
+//Css import
 import './index.css'
+//Component Import
 import App from './App.jsx'
+//Library Import
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
 
-createRoot(document.getElementById('root')).render(
-  
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
     <App />
-
-)
+  </BrowserRouter>
+);
