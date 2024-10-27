@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 `````
 
 ## Install following dependences
+npm install
 @reduxjs/toolkit 
 react-redux 
 react-router-dom 
